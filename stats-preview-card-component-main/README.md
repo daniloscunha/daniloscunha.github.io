@@ -26,8 +26,7 @@ The challenge was to build a card component to look as close to the design and t
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://daniloscunha.github.io/stats-preview-card-component-main/
 
 ## My process
 
