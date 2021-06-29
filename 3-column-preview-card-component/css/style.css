@@ -45,7 +45,7 @@ main {
     font-family: "Big Shoulders Display", sans-serif;
     text-transform: uppercase;
     font-size: 2.4rem;
-    margin-bottom: 1.4rem;
+    margin: 1.4rem 0;
     color: var(--grey);
 }
 
@@ -59,12 +59,19 @@ p{
     background-color: var(--color01);
 }
 
+.sedan::before {
+    content: url("../images/icon-sedans.svg");
+  }
+
 .sedan button{
     color: var(--color01);
 }
 
 .suv{
     background-color: var(--color02);
+}
+.suv::before {
+    content: url("../images/icon-suvs.svg");
 }
 
 .suv button {
@@ -73,6 +80,10 @@ p{
 
 .luxury{
     background-color: var(--color03);
+}
+
+.luxury::before {
+    content: url("../images/icon-luxury.svg");
 }
 
 .luxury button {
